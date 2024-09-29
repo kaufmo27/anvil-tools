@@ -1,0 +1,19 @@
+------------------------------------------------
+Anvil Tools: Working Names
+------------------------------------------------
+-Here you will find all the names for items to change their appearance.
+-When renaming in the game, ignore the "+" signs or the quotation marks to make everything work correctly, for example: Ender Sword, Axe of Honor
+------------------------------------------------
+Amethyst + "Tool Name" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Blaze + "Tool Name" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Ender + "Tool Name" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe)
+Honey + "Tool Name" (Works for Netherite/Diamond/Iron Sword, Pickaxe, Axe, Shovel, Hoe)
+"Name of Tool" + of Honour (Works for Netherite/Diamond/Iron Sword, Pickaxe, Axe, Shovel, Hoe)
+Ice + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Minty + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Overgrown + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Ruby + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Sculk + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Skull + "Name of Tool" (Works for Netherite/Diamond Sword, Pickaxe, Axe, Shovel, Hoe).
+Magic Bow (Works only for Bow)
+Frozen Sword (Works only for Netherite/Diamond Sword)
