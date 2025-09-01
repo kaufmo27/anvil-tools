@@ -84,7 +84,21 @@
             "type": "minecraft:model",
             "model": "item/totems/banana_totem"
           }
-        }
+        },
+	{
+		"when": "Medkit",
+		"model": {
+			"type": "minecraft:model",
+			"model": "item/totems/medkit_totem"
+		}
+	},
+	{
+		"when": "Аптечка",
+		"model": {
+			"type": "minecraft:model",
+			"model": "item/totems/medkit_totem"
+		}
+	}
       ],
       "fallback": {
         "type": "minecraft:model",
