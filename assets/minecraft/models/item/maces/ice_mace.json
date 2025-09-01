@@ -1,0 +1,7 @@
+{
+	"credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+	"parent": "item/mace",
+	"textures": {
+		"layer0": "item/maces/ice_mace"
+	}
+}

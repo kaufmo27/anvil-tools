@@ -1,0 +1,7 @@
+{
+    "credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/crossbows/overgrown_crossbow_firework"
+    }
+}

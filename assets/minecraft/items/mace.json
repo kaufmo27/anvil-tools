@@ -1,0 +1,204 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+  {
+    "when": "Amethyst Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/amethyst_mace"
+    }
+  },
+  {
+    "when": "Аметистова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/amethyst_mace"
+    }
+  },
+  {
+    "when": "Blaze Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/blaze_mace"
+    }
+  },
+  {
+    "when": "Булава Пломеня",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/blaze_mace"
+    }
+  },
+  {
+    "when": "Bone Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/bone_mace"
+    }
+  },
+  {
+    "when": "Кістяна Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/bone_mace"
+    }
+  },
+  {
+    "when": "Thick Benena",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/banana_mace"
+    }
+  },
+  {
+    "when": "Товстий Бананчік",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/banana_mace"
+    }
+  },
+  {
+    "when": "Ender Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ender_mace"
+    }
+  },
+  {
+    "when": "Булава Енду",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ender_mace"
+    }
+  },
+  {
+    "when": "Glass Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/glass_mace"
+    }
+  },
+  {
+    "when": "Скляна Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/glass_mace"
+    }
+  },
+  {
+    "when": "Honey Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/honey_mace"
+    }
+  },
+  {
+    "when": "Медова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/honey_mace"
+    }
+  },
+  {
+    "when": "Ice Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ice_mace"
+    }
+  },
+  {
+    "when": "Льодова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ice_mace"
+    }
+  },
+  {
+    "when": "Overgrown Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/overgrown_mace"
+    }
+  },
+  {
+    "when": "Заросла Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/overgrown_mace"
+    }
+  },
+  {
+    "when": "Ruby Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ruby_mace"
+    }
+  },
+  {
+    "when": "Рубінова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/ruby_mace"
+    }
+  },
+  {
+    "when": "Sculk Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/sculk_mace"
+    }
+  },
+  {
+    "when": "Скалкова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/sculk_mace"
+    }
+  },
+  {
+    "when": "Skull Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/skull_mace"
+    }
+  },
+  {
+    "when": "Булава з Черепом",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/skull_mace"
+    }
+  },
+  {
+    "when": "Blossom Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/blossom_mace"
+    }
+  },
+  {
+    "when": "Квітуча Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/blossom_mace"
+    }
+  }
+],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mace"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}

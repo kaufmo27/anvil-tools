@@ -1,0 +1,232 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Amethyst Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/amethyst_pickaxe"
+          }
+        },
+        {
+          "when": "Аметистове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/amethyst_pickaxe"
+          }
+        },
+        {
+          "when": "Pickaxe of Honor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/pickaxe_of_honor"
+          }
+        },
+        {
+          "when": "Кайло Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/pickaxe_of_honor"
+          }
+        },
+        {
+          "when": "Blaze Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/blaze_pickaxe"
+          }
+        },
+        {
+          "when": "Кайло Пломеня",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/blaze_pickaxe"
+          }
+        },
+        {
+          "when": "Bone Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/bone_pickaxe"
+          }
+        },
+        {
+          "when": "Кістяне Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/bone_pickaxe"
+          }
+        },
+        {
+          "when": "Strong Benena",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/banana_pickaxe"
+          }
+        },
+        {
+          "when": "Міцний Бананчік",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/banana_pickaxe"
+          }
+        },
+        {
+          "when": "Ender Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ender_pickaxe"
+          }
+        },
+        {
+          "when": "Кайло Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ender_pickaxe"
+          }
+        },
+        {
+          "when": "Glass Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/glass_pickaxe"
+          }
+        },
+        {
+          "when": "Скляне Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/glass_pickaxe"
+          }
+        },
+        {
+          "when": "Heavy Core Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/heavy_core_pickaxe"
+          }
+        },
+        {
+          "when": "Кайло з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/heavy_core_pickaxe"
+          }
+        },
+        {
+          "when": "Honey Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/honey_pickaxe"
+          }
+        },
+        {
+          "when": "Медове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/honey_pickaxe"
+          }
+        },
+        {
+          "when": "Ice Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ice_pickaxe"
+          }
+        },
+        {
+          "when": "Льодове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ice_pickaxe"
+          }
+        },
+        {
+          "when": "Minty Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/minty_pickaxe"
+          }
+        },
+        {
+          "when": "М'ятне Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/minty_pickaxe"
+          }
+        },
+        {
+          "when": "Overgrown Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/overgrown_pickaxe"
+          }
+        },
+        {
+          "when": "Заросле Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/overgrown_pickaxe"
+          }
+        },
+        {
+          "when": "Ruby Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ruby_pickaxe"
+          }
+        },
+        {
+          "when": "Рубінове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/ruby_pickaxe"
+          }
+        },
+        {
+          "when": "Sculk Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/sculk_pickaxe"
+          }
+        },
+        {
+          "when": "Скалкове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/sculk_pickaxe"
+          }
+        },
+        {
+          "when": "Skull Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/skull_pickaxe"
+          }
+        },
+        {
+          "when": "Кайло з Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/skull_pickaxe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_pickaxe"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_pickaxe"
+    }
+  }
+}

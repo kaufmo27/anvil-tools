@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Water Bucket",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/water_bucket_totem"
+          }
+        },
+        {
+          "when": "Відро Води",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/water_bucket_totem"
+          }
+        },
+        {
+          "when": "Warden",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/warden_totem"
+          }
+        },
+        {
+          "when": "Боронитель",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/warden_totem"
+          }
+        },
+        {
+          "when": "Варден",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/warden_totem"
+          }
+        },
+        {
+          "when": "Cross",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/cross_totem"
+          }
+        },
+        {
+          "when": "Хрест",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/cross_totem"
+          }
+        },
+        {
+          "when": "Ring",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/ring_totem"
+          }
+        },
+        {
+          "when": "Кільце",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/ring_totem"
+          }
+        },
+        {
+          "when": "Banana",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/banana_totem"
+          }
+        },
+        {
+          "when": "Банан",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/banana_totem"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/totem_of_undying"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/totem_of_undying"
+    }
+  }
+}

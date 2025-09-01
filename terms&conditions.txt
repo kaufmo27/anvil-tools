@@ -1,0 +1,17 @@
+------------------------------------------------
+
+Anvil Tools: Terms & Conditions
+
+------------------------------------------------
+
+-kaufmo is creator and copyright owner of this resource pack
+-Do not distribute the pack or textures and/or claim them as your own.
+-Feel free to use in-game (loading the pack through the Minecraft client), remix and/or edit the textures for your own personal use. However, you may not distribute the modified/remixed textures without my consent.
+-Do not re-upload the pack elsewhere. I urge everyone to link to here, this is to protect the packs integrity and to centralize comments/critique that may help me improve the pack.
+-Feel free to take screenshots/video recordings in/from Minecraft while using this pack and/or the contents/assets therein (loading the pack or parts of it through the Minecraft client) and to distribute such content with or without commercial purposes (crediting is not necessary). 
+-If you use assets from this resource pack in your own, credit is required. Preferably including its name and a link to an official CurseForge, Planet Minecraft, or Modrinth page
+-Porting to other versions can only be done by the author
+-For questions, please contact the author
+-These terms are subject to change at any time
+
+------------------------------------------------

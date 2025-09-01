@@ -1,0 +1,7 @@
+{
+    "credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/bows/magic_bow_pulling_0"
+    }
+}

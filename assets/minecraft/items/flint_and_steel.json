@@ -1,0 +1,50 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Lighter",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/lighter"
+          }
+        },
+        {
+          "when": "Запальничка",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/lighter"
+          }
+        },
+        {
+          "when": "Classic Lighter",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/classic_lighter"
+          }
+        },
+        {
+          "when": "Класична Запальничка",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/classic_lighter"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/flint_and_steel"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/flint_and_steel"
+    }
+  }
+}

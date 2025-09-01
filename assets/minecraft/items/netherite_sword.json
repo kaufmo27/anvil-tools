@@ -1,0 +1,260 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Amethyst Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/amethyst_sword"
+          }
+        },
+        {
+          "when": "Аметистовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/amethyst_sword"
+          }
+        },
+        {
+          "when": "Sword of Honor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sword_of_honor"
+          }
+        },
+        {
+          "when": "Меч Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sword_of_honor"
+          }
+        },
+        {
+          "when": "Blaze Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blaze_sword"
+          }
+        },
+        {
+          "when": "Меч Пломеня",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blaze_sword"
+          }
+        },
+        {
+          "when": "Bone Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/bone_sword"
+          }
+        },
+        {
+          "when": "Кістяний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/bone_sword"
+          }
+        },
+        {
+          "when": "Sharp Benena",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/banana_sword"
+          }
+        },
+        {
+          "when": "Гострий Бананчік",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/banana_sword"
+          }
+        },
+        {
+          "when": "Ender Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ender_sword"
+          }
+        },
+        {
+          "when": "Меч Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ender_sword"
+          }
+        },
+        {
+          "when": "Glass Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/glass_sword"
+          }
+        },
+        {
+          "when": "Скляний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/glass_sword"
+          }
+        },
+        {
+          "when": "Heavy Core Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/heavy_core_sword"
+          }
+        },
+        {
+          "when": "Меч з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/heavy_core_sword"
+          }
+        },
+        {
+          "when": "Honey Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/honey_sword"
+          }
+        },
+        {
+          "when": "Медовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/honey_sword"
+          }
+        },
+        {
+          "when": "Ice Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ice_sword"
+          }
+        },
+        {
+          "when": "Льодовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ice_sword"
+          }
+        },
+        {
+          "when": "Minty Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/minty_sword"
+          }
+        },
+        {
+          "when": "М'ятний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/minty_sword"
+          }
+        },
+        {
+          "when": "Overgrown Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/overgrown_sword"
+          }
+        },
+        {
+          "when": "Зарослий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/overgrown_sword"
+          }
+        },
+        {
+          "when": "Ruby Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ruby_sword"
+          }
+        },
+        {
+          "when": "Рубіновий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ruby_sword"
+          }
+        },
+        {
+          "when": "Sculk Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sculk_sword"
+          }
+        },
+        {
+          "when": "Скалковий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sculk_sword"
+          }
+        },
+        {
+          "when": "Skull Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/skull_sword"
+          }
+        },
+        {
+          "when": "Меч з Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/skull_sword"
+          }
+        },
+        {
+          "when": "Frost Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/frost_sword"
+          }
+        },
+        {
+          "when": "Морозний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/frost_sword"
+          }
+        },
+        {
+          "when": "Blossom Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blossom_sword"
+          }
+        },
+        {
+          "when": "Квітучий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blossom_sword"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_sword"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

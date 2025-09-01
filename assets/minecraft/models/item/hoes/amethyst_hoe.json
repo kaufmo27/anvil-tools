@@ -1,0 +1,7 @@
+{
+	"credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/hoes/amethyst_hoe"
+	}
+}

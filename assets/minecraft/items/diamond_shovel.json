@@ -1,0 +1,232 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Amethyst Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/amethyst_shovel"
+          }
+        },
+        {
+          "when": "Аметистова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/amethyst_shovel"
+          }
+        },
+        {
+          "when": "Shovel of Honor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/shovel_of_honor"
+          }
+        },
+        {
+          "when": "Лопата Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/shovel_of_honor"
+          }
+        },
+        {
+          "when": "Blaze Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/blaze_shovel"
+          }
+        },
+        {
+          "when": "Лопата Пломеня",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/blaze_shovel"
+          }
+        },
+        {
+          "when": "Bone Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/bone_shovel"
+          }
+        },
+        {
+          "when": "Кістяна Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/bone_shovel"
+          }
+        },
+        {
+          "when": "Dirt Benena",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/banana_shovel"
+          }
+        },
+        {
+          "when": "Брудний Бананчік",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/banana_shovel"
+          }
+        },
+        {
+          "when": "Ender Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ender_shovel"
+          }
+        },
+        {
+          "when": "Лопата Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ender_shovel"
+          }
+        },
+        {
+          "when": "Glass Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/glass_shovel"
+          }
+        },
+        {
+          "when": "Скляна Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/glass_shovel"
+          }
+        },
+        {
+          "when": "Heavy Core Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/heavy_core_shovel"
+          }
+        },
+        {
+          "when": "Лопата з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/heavy_core_shovel"
+          }
+        },
+        {
+          "when": "Honey Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/honey_shovel"
+          }
+        },
+        {
+          "when": "Медова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/honey_shovel"
+          }
+        },
+        {
+          "when": "Ice Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ice_shovel"
+          }
+        },
+        {
+          "when": "Льодова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ice_shovel"
+          }
+        },
+        {
+          "when": "Minty Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/minty_shovel"
+          }
+        },
+        {
+          "when": "Мятна Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/minty_shovel"
+          }
+        },
+        {
+          "when": "Overgrown Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/overgrown_shovel"
+          }
+        },
+        {
+          "when": "Заросла Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/overgrown_shovel"
+          }
+        },
+        {
+          "when": "Ruby Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ruby_shovel"
+          }
+        },
+        {
+          "when": "Рубінова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/ruby_shovel"
+          }
+        },
+        {
+          "when": "Sculk Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/sculk_shovel"
+          }
+        },
+        {
+          "when": "Скалкова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/sculk_shovel"
+          }
+        },
+        {
+          "when": "Skull Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/skull_shovel"
+          }
+        },
+        {
+          "when": "Лопата з Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/skull_shovel"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_shovel"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_shovel"
+    }
+  }
+}

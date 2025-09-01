@@ -1,0 +1,7 @@
+{
+    "credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+    "parent": "item/shears",
+    "textures": {
+        "layer0": "item/shears/old_scissors"
+    }
+}

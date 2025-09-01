@@ -1,0 +1,232 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Amethyst Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/amethyst_hoe"
+          }
+        },
+        {
+          "when": "Аметистова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/amethyst_hoe"
+          }
+        },
+        {
+          "when": "Hoe of Honor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/hoe_of_honor"
+          }
+        },
+        {
+          "when": "Мотика Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/hoe_of_honor"
+          }
+        },
+        {
+          "when": "Blaze Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/blaze_hoe"
+          }
+        },
+        {
+          "when": "Мотика Пломеня",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/blaze_hoe"
+          }
+        },
+        {
+          "when": "Bone Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/bone_hoe"
+          }
+        },
+        {
+          "when": "Кістяна Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/bone_hoe"
+          }
+        },
+        {
+          "when": "Farm Benena",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/banana_hoe"
+          }
+        },
+        {
+          "when": "Плодовитий Бананчік",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/banana_hoe"
+          }
+        },
+        {
+          "when": "Ender Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ender_hoe"
+          }
+        },
+        {
+          "when": "Мотика Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ender_hoe"
+          }
+        },
+        {
+          "when": "Glass Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/glass_hoe"
+          }
+        },
+        {
+          "when": "Скляна Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/glass_hoe"
+          }
+        },
+        {
+          "when": "Heavy Core Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/heavy_core_hoe"
+          }
+        },
+        {
+          "when": "Мотика з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/heavy_core_hoe"
+          }
+        },
+        {
+          "when": "Honey Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/honey_hoe"
+          }
+        },
+        {
+          "when": "Медова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/honey_hoe"
+          }
+        },
+        {
+          "when": "Ice Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ice_hoe"
+          }
+        },
+        {
+          "when": "Льодова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ice_hoe"
+          }
+        },
+        {
+          "when": "Minty Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/minty_hoe"
+          }
+        },
+        {
+          "when": "Мятна Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/minty_hoe"
+          }
+        },
+        {
+          "when": "Overgrown Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/overgrown_hoe"
+          }
+        },
+        {
+          "when": "Заросла Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/overgrown_hoe"
+          }
+        },
+        {
+          "when": "Ruby Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ruby_hoe"
+          }
+        },
+        {
+          "when": "Рубінова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/ruby_hoe"
+          }
+        },
+        {
+          "when": "Sculk Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/sculk_hoe"
+          }
+        },
+        {
+          "when": "Скалкова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/sculk_hoe"
+          }
+        },
+        {
+          "when": "Skull Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/skull_hoe"
+          }
+        },
+        {
+          "when": "Мотика з Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/skull_hoe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_hoe"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_hoe"
+    }
+  }
+}

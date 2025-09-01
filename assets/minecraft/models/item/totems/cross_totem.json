@@ -1,0 +1,7 @@
+{
+	"credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+	"parent": "item/totem_of_undying",
+	"textures": {
+		"layer0": "item/totems/cross_totem"
+	}
+}

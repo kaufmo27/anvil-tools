@@ -1,0 +1,50 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+  {
+    "when": "Scissors",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/shears/scissors"
+    }
+  },
+  {
+    "when": "Маленькі Ножиці",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/shears/scissors"
+    }
+  },
+  {
+    "when": "Old Scissors",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/shears/old_scissors"
+    }
+  },
+  {
+    "when": "Старі Ножиці",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/shears/old_scissors"
+    }
+  }
+],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/shears"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/shears"
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Amethyst Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/amethyst_axe"
+          }
+        },
+        {
+          "when": "Аметистова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/amethyst_axe"
+          }
+        },
+        {
+          "when": "Axe of Honor",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/axe_of_honor"
+          }
+        },
+        {
+          "when": "Сокира Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/axe_of_honor"
+          }
+        },
+        {
+          "when": "Blaze Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blaze_axe"
+          }
+        },
+        {
+          "when": "Сокира Пломеня",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blaze_axe"
+          }
+        },
+        {
+          "when": "Bone Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/bone_axe"
+          }
+        },
+        {
+          "when": "Кістяна Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/bone_axe"
+          }
+        },
+        {
+          "when": "Chop Benena",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/banana_axe"
+          }
+        },
+        {
+          "when": "Рубаючий Бананчік",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/banana_axe"
+          }
+        },
+        {
+          "when": "Ender Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ender_axe"
+          }
+        },
+        {
+          "when": "Сокира Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ender_axe"
+          }
+        },
+        {
+          "when": "Glass Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/glass_axe"
+          }
+        },
+        {
+          "when": "Скляна Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/glass_axe"
+          }
+        },
+        {
+          "when": "Heavy Core Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/heavy_core_axe"
+          }
+        },
+        {
+          "when": "Сокира з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/heavy_core_axe"
+          }
+        },
+        {
+          "when": "Honey Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/honey_axe"
+          }
+        },
+        {
+          "when": "Медова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/honey_axe"
+          }
+        },
+        {
+          "when": "Ice Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ice_axe"
+          }
+        },
+        {
+          "when": "Льодова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ice_axe"
+          }
+        },
+        {
+          "when": "Minty Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/minty_axe"
+          }
+        },
+        {
+          "when": "М'ятна Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/minty_axe"
+          }
+        },
+        {
+          "when": "Overgrown Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/overgrown_axe"
+          }
+        },
+        {
+          "when": "Заросла Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/overgrown_axe"
+          }
+        },
+        {
+          "when": "Ruby Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ruby_axe"
+          }
+        },
+        {
+          "when": "Рубінова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ruby_axe"
+          }
+        },
+        {
+          "when": "Sculk Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/sculk_axe"
+          }
+        },
+        {
+          "when": "Скалкова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/sculk_axe"
+          }
+        },
+        {
+          "when": "Skull Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/skull_axe"
+          }
+        },
+        {
+          "when": "Сокира з Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/skull_axe"
+          }
+        },
+        {
+          "when": "Blossom Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blossom_axe"
+          }
+        },
+        {
+          "when": "Квітуча Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blossom_axe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_axe"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_axe"
+    }
+  }
+}

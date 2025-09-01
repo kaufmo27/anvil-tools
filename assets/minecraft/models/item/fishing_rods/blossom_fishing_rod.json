@@ -1,0 +1,7 @@
+{
+	"credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/fishing_rods/blossom_fishing_rod"
+	}
+}
