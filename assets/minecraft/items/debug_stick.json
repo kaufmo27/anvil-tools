@@ -1,0 +1,64 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+  {
+    "when": "Magic Stick",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/magic_stick"
+    }
+  },
+    {
+    "when": "Магічна Паличка",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/magic_stick"
+    }
+  },
+    {
+    "when": "Arcane Rod",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/arcane_rod"
+    }
+  },
+    {
+    "when": "Потаємний Жезл",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/arcane_rod"
+    }
+  },
+    {
+    "when": "Starlight Wand",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/starlight_rod"
+    }
+  },
+    {
+    "when": "Зоресвіт",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/debug_sticks/starlight_rod"
+    }
+  }
+],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/debug_stick"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/debug_stick"
+    }
+  }
+}
