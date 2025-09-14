@@ -231,6 +231,20 @@
             "type": "minecraft:model",
             "model": "item/hoes/blossom_hoe"
           }
+        },
+        {
+          "when": "Emerald Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/emerald_hoe"
+          }
+        },
+        {
+          "when": "Смарагдова Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/emerald_hoe"
+          }
         }
       ],
       "fallback": {

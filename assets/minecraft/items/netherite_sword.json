@@ -245,6 +245,20 @@
             "type": "minecraft:model",
             "model": "item/swords/blossom_sword"
           }
+        },
+        {
+          "when": "Emerald Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/emerald_sword"
+          }
+        },
+        {
+          "when": "Смарагдовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/emerald_sword"
+          }
         }
       ],
       "fallback": {

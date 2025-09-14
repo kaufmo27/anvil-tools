@@ -231,6 +231,20 @@
             "type": "minecraft:model",
             "model": "item/shovels/blossom_shovel"
           }
+        },
+        {
+          "when": "Emerald Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/emerald_shovel"
+          }
+        },
+        {
+          "when": "Смарагдова Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/emerald_shovel"
+          }
         }
       ],
       "fallback": {

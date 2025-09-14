@@ -189,6 +189,20 @@
       "type": "minecraft:model",
       "model": "item/maces/blossom_mace"
     }
+  },
+  {
+    "when": "Emerald Mace",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/emerald_mace"
+    }
+  },
+  {
+    "when": "Смарагдова Булава",
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/maces/emerald_mace"
+    }
   }
 ],
       "fallback": {

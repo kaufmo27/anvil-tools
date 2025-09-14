@@ -217,6 +217,20 @@
             "type": "minecraft:model",
             "model": "item/pickaxes/skull_pickaxe"
           }
+        },
+        {
+          "when": "Emerald Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/emerald_pickaxe"
+          }
+        },
+        {
+          "when": "Смарагдове Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/emerald_pickaxe"
+          }
         }
       ],
       "fallback": {

@@ -231,6 +231,20 @@
             "type": "minecraft:model",
             "model": "item/axes/blossom_axe"
           }
+        },
+        {
+          "when": "Emerald Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/emerald_axe"
+          }
+        },
+        {
+          "when": "Смарагдова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/emerald_axe"
+          }
         }
       ],
       "fallback": {
