@@ -219,6 +219,20 @@
           }
         },
         {
+          "when": "Blossom Shovel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/blossom_shovel"
+          }
+        },
+        {
+          "when": "Квітуча Лопата",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shovels/blossom_shovel"
+          }
+        },
+        {
           "when": "Emerald Shovel",
           "model": {
             "type": "minecraft:model",

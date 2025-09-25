@@ -219,6 +219,20 @@
           }
         },
         {
+          "when": "Blossom Axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blossom_axe"
+          }
+        },
+        {
+          "when": "Квітуча Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blossom_axe"
+          }
+        },
+        {
           "when": "Emerald Axe",
           "model": {
             "type": "minecraft:model",

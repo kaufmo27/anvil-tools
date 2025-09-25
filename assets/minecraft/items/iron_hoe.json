@@ -219,6 +219,20 @@
           }
         },
         {
+          "when": "Blossom Hoe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/blossom_hoe"
+          }
+        },
+        {
+          "when": "Квітуча Мотика",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/hoes/blossom_hoe"
+          }
+        },
+        {
           "when": "Emerald Hoe",
           "model": {
             "type": "minecraft:model",

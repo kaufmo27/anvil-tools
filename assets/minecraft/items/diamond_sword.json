@@ -233,6 +233,20 @@
           }
         },
         {
+          "when": "Blossom Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blossom_sword"
+          }
+        },
+        {
+          "when": "Квітучий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blossom_sword"
+          }
+        },
+        {
           "when": "Emerald Sword",
           "model": {
             "type": "minecraft:model",

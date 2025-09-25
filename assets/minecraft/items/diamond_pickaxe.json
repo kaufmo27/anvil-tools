@@ -219,6 +219,20 @@
           }
         },
         {
+          "when": "Blossom Pickaxe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/blossom_pickaxe"
+          }
+        },
+        {
+          "when": "Квітуче Кайло",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/pickaxes/blossom_pickaxe"
+          }
+        },
+        {
           "when": "Emerald Pickaxe",
           "model": {
             "type": "minecraft:model",
