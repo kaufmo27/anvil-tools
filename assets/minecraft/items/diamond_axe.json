@@ -23,6 +23,13 @@
           }
         },
         {
+          "when": "Аметистовый Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/amethyst_axe"
+          }
+        },
+        {
           "when": "Axe of Honor",
           "model": {
             "type": "minecraft:model",
@@ -31,6 +38,13 @@
         },
         {
           "when": "Сокира Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/axe_of_honor"
+          }
+        },
+        {
+          "when": "Топор Чести",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/axe_of_honor"
@@ -51,6 +65,13 @@
           }
         },
         {
+          "when": "Ифритовый Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blaze_axe"
+          }
+        },
+        {
           "when": "Bone Axe",
           "model": {
             "type": "minecraft:model",
@@ -59,6 +80,13 @@
         },
         {
           "when": "Кістяна Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/bone_axe"
+          }
+        },
+        {
+          "when": "Костяной Топор",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/bone_axe"
@@ -79,6 +107,13 @@
           }
         },
         {
+          "when": "Рубающий Бананчик",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/banana_axe"
+          }
+        },
+        {
           "when": "Ender Axe",
           "model": {
             "type": "minecraft:model",
@@ -87,6 +122,13 @@
         },
         {
           "when": "Сокира Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ender_axe"
+          }
+        },
+        {
+          "when": "Топор Энда",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/ender_axe"
@@ -107,6 +149,13 @@
           }
         },
         {
+          "when": "Стеклянный Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/glass_axe"
+          }
+        },
+        {
           "when": "Heavy Core Axe",
           "model": {
             "type": "minecraft:model",
@@ -115,6 +164,13 @@
         },
         {
           "when": "Сокира з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/heavy_core_axe"
+          }
+        },
+        {
+          "when": "Топор из Тяжёлого Ядра",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/heavy_core_axe"
@@ -135,6 +191,13 @@
           }
         },
         {
+          "when": "Медовый Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/honey_axe"
+          }
+        },
+        {
           "when": "Ice Axe",
           "model": {
             "type": "minecraft:model",
@@ -143,6 +206,13 @@
         },
         {
           "when": "Льодова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ice_axe"
+          }
+        },
+        {
+          "when": "Ледяной Топор",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/ice_axe"
@@ -163,6 +233,13 @@
           }
         },
         {
+          "when": "Мятный Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/minty_axe"
+          }
+        },
+        {
           "when": "Overgrown Axe",
           "model": {
             "type": "minecraft:model",
@@ -171,6 +248,13 @@
         },
         {
           "when": "Заросла Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/overgrown_axe"
+          }
+        },
+        {
+          "when": "Заросший Топор",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/overgrown_axe"
@@ -191,6 +275,13 @@
           }
         },
         {
+          "when": "Рубиновый Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/ruby_axe"
+          }
+        },
+        {
           "when": "Sculk Axe",
           "model": {
             "type": "minecraft:model",
@@ -199,6 +290,13 @@
         },
         {
           "when": "Скалкова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/sculk_axe"
+          }
+        },
+        {
+          "when": "Скалковый Топор",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/sculk_axe"
@@ -219,6 +317,13 @@
           }
         },
         {
+          "when": "Топор с Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/skull_axe"
+          }
+        },
+        {
           "when": "Blossom Axe",
           "model": {
             "type": "minecraft:model",
@@ -233,6 +338,20 @@
           }
         },
         {
+          "when": "Квітуча Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/blossom_axe"
+          }
+        },
+        {
+          "when": "Цветущий Топор",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/emerald_axe"
+          }
+        },
+        {
           "when": "Emerald Axe",
           "model": {
             "type": "minecraft:model",
@@ -241,6 +360,13 @@
         },
         {
           "when": "Смарагдова Сокира",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axes/emerald_axe"
+          }
+        },
+        {
+          "when": "Изумрудный Топор",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/emerald_axe"

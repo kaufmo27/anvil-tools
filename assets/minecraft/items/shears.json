@@ -8,35 +8,49 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
-  {
-    "when": "Scissors",
-    "model": {
-      "type": "minecraft:model",
-      "model": "item/shears/scissors"
-    }
-  },
-  {
-    "when": "Маленькі Ножиці",
-    "model": {
-      "type": "minecraft:model",
-      "model": "item/shears/scissors"
-    }
-  },
-  {
-    "when": "Old Scissors",
-    "model": {
-      "type": "minecraft:model",
-      "model": "item/shears/old_scissors"
-    }
-  },
-  {
-    "when": "Старі Ножиці",
-    "model": {
-      "type": "minecraft:model",
-      "model": "item/shears/old_scissors"
-    }
-  }
-],
+        {
+          "when": "Scissors",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/scissors"
+          }
+        },
+        {
+          "when": "Маленькі Ножиці",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/scissors"
+          }
+        },
+        {
+          "when": "Маленькие Ножницы",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/scissors"
+          }
+        },
+        {
+          "when": "Old Scissors",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/old_scissors"
+          }
+        },
+        {
+          "when": "Старі Ножиці",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/old_scissors"
+          }
+        },
+        {
+          "when": "Старые Ножницы",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shears/old_scissors"
+          }
+        }
+      ],
       "fallback": {
         "type": "minecraft:model",
         "model": "minecraft:item/shears"

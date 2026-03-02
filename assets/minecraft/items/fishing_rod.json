@@ -9,8 +9,8 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-            "when": "Overgrown Fishing Rod",
-            "model": {
+          "when": "Overgrown Fishing Rod",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {
@@ -24,8 +24,8 @@
           }
         },
         {
-            "when": "Заросла Вудка",
-            "model": {
+          "when": "Заросла Вудка",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {
@@ -39,8 +39,23 @@
           }
         },
         {
-            "when": "Bone Fishing Rod",
-            "model": {
+          "when": "Заросшая Удочка",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/overgrown_fishing_rod"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/overgrown_fishing_rod_cast"
+            }
+          }
+        },
+        {
+          "when": "Bone Fishing Rod",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {
@@ -54,8 +69,8 @@
           }
         },
         {
-            "when": "Кістяна Вудка",
-            "model": {
+          "when": "Кістяна Вудка",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {
@@ -69,8 +84,23 @@
           }
         },
         {
-            "when": "Blossom Fishing Rod",
-            "model": {
+          "when": "Костяная Удочка",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/bone_fishing_rod"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/bone_fishing_rod_cast"
+            }
+          }
+        },
+        {
+          "when": "Blossom Fishing Rod",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {
@@ -84,8 +114,23 @@
           }
         },
         {
-            "when": "Квітуча Вудка",
-            "model": {
+          "when": "Квітуча Вудка",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/blossom_fishing_rod"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "item/fishing_rods/blossom_fishing_rod_cast"
+            }
+          }
+        },
+        {
+          "when": "Цветущая Удочка",
+          "model": {
             "type": "minecraft:condition",
             "property": "minecraft:fishing_rod/cast",
             "on_false": {

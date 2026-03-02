@@ -81,6 +81,42 @@
           }
         },
         {
+          "when": "Магический Лук",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/magic_bow/magic_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/magic_bow/magic_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/magic_bow/magic_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/magic_bow/magic_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
           "when": "Overgrown Bow",
           "model": {
             "type": "minecraft:condition",
@@ -118,6 +154,42 @@
         },
         {
           "when": "Зарослий Лук",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/overgrown_bow/overgrown_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/overgrown_bow/overgrown_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/overgrown_bow/overgrown_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/overgrown_bow/overgrown_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "when": "Заросший Лук",
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:using_item",
@@ -225,6 +297,42 @@
           }
         },
         {
+          "when": "Рубиновый Лук",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/ruby_bow/ruby_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/ruby_bow/ruby_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/ruby_bow/ruby_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/ruby_bow/ruby_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
           "when": "Ender Bow",
           "model": {
             "type": "minecraft:condition",
@@ -262,6 +370,42 @@
         },
         {
           "when": "Лук Енду",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/ender_bow/ender_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/ender_bow/ender_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/ender_bow/ender_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/ender_bow/ender_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "when": "Лук Энда",
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:using_item",
@@ -369,6 +513,42 @@
           }
         },
         {
+          "when": "Лук из Тяжёлого Ядра",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/heavy_core_bow/heavy_core_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/heavy_core_bow/heavy_core_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/heavy_core_bow/heavy_core_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/heavy_core_bow/heavy_core_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
           "when": "Blossom Bow",
           "model": {
             "type": "minecraft:condition",
@@ -406,6 +586,42 @@
         },
         {
           "when": "Квітучий Лук",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "item/bows/blossom_bow/blossom_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "item/bows/blossom_bow/blossom_bow_pulling_0"
+              },
+              "entries": [
+                {
+                  "threshold": 0.65,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/blossom_bow/blossom_bow_pulling_1"
+                  }
+                },
+                {
+                  "threshold": 0.9,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/bows/blossom_bow/blossom_bow_pulling_2"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "when": "Цветущий Лук",
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:using_item",

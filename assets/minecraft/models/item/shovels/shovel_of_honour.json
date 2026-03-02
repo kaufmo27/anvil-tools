@@ -1,7 +1,0 @@
-{
-	"credit": "Created by kaufmo - https://modrinth.com/user/kaufmo",
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/shovels/shovel_of_honour"
-	}
-}

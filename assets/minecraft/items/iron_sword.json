@@ -23,6 +23,13 @@
           }
         },
         {
+          "when": "Аметистовый Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/amethyst_sword"
+          }
+        },
+        {
           "when": "Sword of Honor",
           "model": {
             "type": "minecraft:model",
@@ -31,6 +38,13 @@
         },
         {
           "when": "Меч Честі",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sword_of_honor"
+          }
+        },
+        {
+          "when": "Меч Чести",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/sword_of_honor"
@@ -51,6 +65,13 @@
           }
         },
         {
+          "when": "Ифритовый Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blaze_sword"
+          }
+        },
+        {
           "when": "Bone Sword",
           "model": {
             "type": "minecraft:model",
@@ -59,6 +80,13 @@
         },
         {
           "when": "Кістяний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/bone_sword"
+          }
+        },
+        {
+          "when": "Костяной Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/bone_sword"
@@ -79,6 +107,13 @@
           }
         },
         {
+          "when": "Гострый Бананчик",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/banana_sword"
+          }
+        },
+        {
           "when": "Ender Sword",
           "model": {
             "type": "minecraft:model",
@@ -87,6 +122,13 @@
         },
         {
           "when": "Меч Енду",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ender_sword"
+          }
+        },
+        {
+          "when": "Меч Энда",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/ender_sword"
@@ -107,6 +149,13 @@
           }
         },
         {
+          "when": "Стеклянный Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/glass_sword"
+          }
+        },
+        {
           "when": "Heavy Core Sword",
           "model": {
             "type": "minecraft:model",
@@ -115,6 +164,13 @@
         },
         {
           "when": "Меч з Важкого Ядра",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/heavy_core_sword"
+          }
+        },
+        {
+          "when": "Меч из Тяжёлого Ядра",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/heavy_core_sword"
@@ -135,6 +191,13 @@
           }
         },
         {
+          "when": "Медовый Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/honey_sword"
+          }
+        },
+        {
           "when": "Ice Sword",
           "model": {
             "type": "minecraft:model",
@@ -143,6 +206,13 @@
         },
         {
           "when": "Льодовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ice_sword"
+          }
+        },
+        {
+          "when": "Ледяной Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/ice_sword"
@@ -163,6 +233,13 @@
           }
         },
         {
+          "when": "Мятный Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/minty_sword"
+          }
+        },
+        {
           "when": "Overgrown Sword",
           "model": {
             "type": "minecraft:model",
@@ -171,6 +248,13 @@
         },
         {
           "when": "Зарослий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/overgrown_sword"
+          }
+        },
+        {
+          "when": "Заросший Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/overgrown_sword"
@@ -191,6 +275,13 @@
           }
         },
         {
+          "when": "Рубиновый Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/ruby_sword"
+          }
+        },
+        {
           "when": "Sculk Sword",
           "model": {
             "type": "minecraft:model",
@@ -199,6 +290,13 @@
         },
         {
           "when": "Скалковий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/sculk_sword"
+          }
+        },
+        {
+          "when": "Скалковый Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/sculk_sword"
@@ -219,6 +317,13 @@
           }
         },
         {
+          "when": "Меч с Черепом",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/skull_sword"
+          }
+        },
+        {
           "when": "Frost Sword",
           "model": {
             "type": "minecraft:model",
@@ -227,6 +332,13 @@
         },
         {
           "when": "Морозний Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/frost_sword"
+          }
+        },
+        {
+          "when": "Морозный Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/frost_sword"
@@ -247,6 +359,13 @@
           }
         },
         {
+          "when": "Цветущий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/blossom_sword"
+          }
+        },
+        {
           "when": "Emerald Sword",
           "model": {
             "type": "minecraft:model",
@@ -255,6 +374,13 @@
         },
         {
           "when": "Смарагдовий Меч",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/swords/emerald_sword"
+          }
+        },
+        {
+          "when": "Изумрудный Меч",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/emerald_sword"

@@ -23,6 +23,13 @@
           }
         },
         {
+          "when": "Зажигалка",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/lighter"
+          }
+        },
+        {
           "when": "Classic Lighter",
           "model": {
             "type": "minecraft:model",
@@ -31,6 +38,13 @@
         },
         {
           "when": "Класична Запальничка",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/flint_and_steel/classic_lighter"
+          }
+        },
+        {
+          "when": "Классическая Зажигалка",
           "model": {
             "type": "minecraft:model",
             "model": "item/flint_and_steel/classic_lighter"

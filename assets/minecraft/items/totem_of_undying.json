@@ -23,6 +23,13 @@
           }
         },
         {
+          "when": "Ведро Воды",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/water_bucket_totem"
+          }
+        },
+        {
           "when": "Warden",
           "model": {
             "type": "minecraft:model",
@@ -31,6 +38,13 @@
         },
         {
           "when": "Боронитель",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/warden_totem"
+          }
+        },
+        {
+          "when": "Хранитель",
           "model": {
             "type": "minecraft:model",
             "model": "item/totems/warden_totem"
@@ -58,6 +72,13 @@
           }
         },
         {
+          "when": "Крест",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/cross_totem"
+          }
+        },
+        {
           "when": "Ring",
           "model": {
             "type": "minecraft:model",
@@ -66,6 +87,13 @@
         },
         {
           "when": "Кільце",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/ring_totem"
+          }
+        },
+        {
+          "when": "Кольцо",
           "model": {
             "type": "minecraft:model",
             "model": "item/totems/ring_totem"
@@ -85,20 +113,20 @@
             "model": "item/totems/banana_totem"
           }
         },
-	{
-		"when": "Medkit",
-		"model": {
-			"type": "minecraft:model",
-			"model": "item/totems/medkit_totem"
-		}
-	},
-	{
-		"when": "Аптечка",
-		"model": {
-			"type": "minecraft:model",
-			"model": "item/totems/medkit_totem"
-		}
-	}
+        {
+          "when": "Medkit",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/medkit_totem"
+          }
+        },
+        {
+          "when": "Аптечка",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/totems/medkit_totem"
+          }
+        }
       ],
       "fallback": {
         "type": "minecraft:model",
