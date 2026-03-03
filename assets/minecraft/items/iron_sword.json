@@ -107,7 +107,7 @@
           }
         },
         {
-          "when": "Гострый Бананчик",
+          "when": "Острый Бананчик",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/banana_sword"

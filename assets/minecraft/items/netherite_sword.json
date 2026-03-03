@@ -385,6 +385,75 @@
             "type": "minecraft:model",
             "model": "item/swords/emerald_sword"
           }
+        },
+        {
+          "when": "Dimentional Sword",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_dimension",
+            "cases": [
+              {
+                "when": "minecraft:overworld",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/cornflower"
+                }
+              },
+              {
+                "when": "minecraft:the_nether",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/crimson_fungus"
+                }
+              },
+              {
+                "when": "minecraft:the_end",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/endermite_spawn_egg"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          }
+        },
+        {
+          "when": "Moon Sword",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:context_dimension",
+            "cases": [
+              {
+                "when": "minecraft:overworld",
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:time",
+                  "source": "daytime",
+                  "scale": 64,
+                  "entries": [
+                    {
+                      "threshold": 32,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "def_night"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:block/acacia_button_inventory"
+                  }
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "default_day"
+            }
+          }
         }
       ],
       "fallback": {

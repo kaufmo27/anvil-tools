@@ -107,7 +107,7 @@
           }
         },
         {
-          "when": "Рубающий Бананчик",
+          "when": "Рубящий Бананчик",
           "model": {
             "type": "minecraft:model",
             "model": "item/axes/banana_axe"
@@ -338,17 +338,10 @@
           }
         },
         {
-          "when": "Квітуча Сокира",
-          "model": {
-            "type": "minecraft:model",
-            "model": "item/axes/blossom_axe"
-          }
-        },
-        {
           "when": "Цветущий Топор",
           "model": {
             "type": "minecraft:model",
-            "model": "item/axes/emerald_axe"
+            "model": "item/axes/blossom_axe"
           }
         },
         {
