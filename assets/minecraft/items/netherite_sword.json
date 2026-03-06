@@ -107,7 +107,7 @@
           }
         },
         {
-          "when": "Гострый Бананчик",
+          "when": "Острый Бананчик",
           "model": {
             "type": "minecraft:model",
             "model": "item/swords/banana_sword"
@@ -432,19 +432,40 @@
                   "type": "minecraft:range_dispatch",
                   "property": "minecraft:time",
                   "source": "daytime",
-                  "scale": 64,
+                  "scale": 4,
                   "entries": [
                     {
-                      "threshold": 32,
+                      "threshold": 0,
                       "model": {
                         "type": "minecraft:model",
-                        "model": "def_night"
+                        "model": "day"
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "night"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "night"
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "day"
                       }
                     }
                   ],
                   "fallback": {
                     "type": "minecraft:model",
-                    "model": "minecraft:block/acacia_button_inventory"
+                    "model": "default_day"
                   }
                 }
               }

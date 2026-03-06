@@ -9,7 +9,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "some_spear",
+          "when": "Glass Spear",
           "model": {
             "type": "minecraft:select",
             "property": "minecraft:display_context",
@@ -18,13 +18,13 @@
                 "when": ["gui", "ground", "fixed", "on_shelf"],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "some_spear.png"
+                  "model": "item/spears/glass_spear"
                 }
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "some_spear_in_hand.png"
+              "model": "item/spears/glass_spear_in_hand"
             }
           }
         }
