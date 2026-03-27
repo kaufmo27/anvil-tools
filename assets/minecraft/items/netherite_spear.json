@@ -9,6 +9,306 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "Amethyst Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/amethyst_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/amethyst_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Аметистовий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/amethyst_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/amethyst_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Аметистовое Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/amethyst_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/amethyst_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Blaze Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blaze_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blaze_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Спис Пломеня",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blaze_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blaze_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Ифритовое Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blaze_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blaze_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Bone Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/bone_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/bone_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Кістяний Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/glass_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/glass_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Костяное Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/glass_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/glass_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Looong Benena",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/banana_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/banana_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Дооовгий Бананчік",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/banana_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/banana_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Длииинный Бананчик",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/banana_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/banana_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Ender Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ender_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ender_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Спис Енду",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ender_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ender_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Копьё Энда",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ender_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ender_spear_in_hand"
+            }
+          }
+        },
+        {
           "when": "Glass Spear",
           "model": {
             "type": "minecraft:select",
@@ -25,6 +325,586 @@
             "fallback": {
               "type": "minecraft:model",
               "model": "item/spears/glass_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Скляний Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/glass_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/glass_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Стеклянное Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/glass_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/glass_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Heavy Core Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/heavy_core_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/heavy_core_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Спис з Важкого Ядра",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/heavy_core_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/heavy_core_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Копьё из Тяжёлого Ядра",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/heavy_core_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/heavy_core_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Honey Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/honey_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/honey_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Медовий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/honey_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/honey_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Медовое Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/honey_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/honey_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Ice Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ice_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ice_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Льодовий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ice_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ice_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Ледяное Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ice_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ice_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Overgrown Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/overgrown_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/overgrown_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Зарослий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/overgrown_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/overgrown_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Заросшее Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/overgrown_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/overgrown_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Ruby Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ruby_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ruby_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Рубіновий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ruby_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ruby_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Рубиновое Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/ruby_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/ruby_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Sculk Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/sculk_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/sculk_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Скалковий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/sculk_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/sculk_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Скалковое Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/sculk_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/sculk_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Skull Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/skull_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/skull_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Спис з Черепом",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/skull_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/skull_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Копьё с Черепом",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/skull_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/skull_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Blossom Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blossom_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blossom_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Квітучий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blossom_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blossom_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Цветущее Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/blossom_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/blossom_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Emerald Spear",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/emerald_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/emerald_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Смарагдовий Спис",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/emerald_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/emerald_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": "Изумрудное Копьё",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/spears/emerald_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/spears/emerald_spear_in_hand"
             }
           }
         }
