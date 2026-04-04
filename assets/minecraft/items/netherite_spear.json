@@ -189,66 +189,6 @@
           }
         },
         {
-          "when": "Looong Benena",
-          "model": {
-            "type": "minecraft:select",
-            "property": "minecraft:display_context",
-            "cases": [
-              {
-                "when": ["gui", "ground", "fixed", "on_shelf"],
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "item/spears/banana_spear"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "item/spears/banana_spear_in_hand"
-            }
-          }
-        },
-        {
-          "when": "Дооовгий Бананчік",
-          "model": {
-            "type": "minecraft:select",
-            "property": "minecraft:display_context",
-            "cases": [
-              {
-                "when": ["gui", "ground", "fixed", "on_shelf"],
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "item/spears/banana_spear"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "item/spears/banana_spear_in_hand"
-            }
-          }
-        },
-        {
-          "when": "Длииинный Бананчик",
-          "model": {
-            "type": "minecraft:select",
-            "property": "minecraft:display_context",
-            "cases": [
-              {
-                "when": ["gui", "ground", "fixed", "on_shelf"],
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "item/spears/banana_spear"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "item/spears/banana_spear_in_hand"
-            }
-          }
-        },
-        {
           "when": "Ender Spear",
           "model": {
             "type": "minecraft:select",
